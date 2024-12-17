@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css class</title>
+    <style>
+        /* universal selector */
+        /* it use to target whole document */
+        /* *{
+            font-style: italic;
+            color: blueviolet;
+            text-transform:capitalize; 
+        } */
+         /* type selector */
+         /* while we are apply css for similar tags  */
+         /* h1{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 30px;
+         } */
+            /* id selector */
+            /* for id selector we # followed by  */
+            /* #heading1{
+                font-size: 30px;
+                color: blueviolet;
+            }
+            /* class selector */
+            /* we use . followed by class name */
+            /* .para{
+                font-size: 20px;
+                font-weight: bold;
+            } */
+             /* group selector */
+             /* bu using , we can apply css in a group manner */
+             /* h1,p{
+                color: blueviolet;
+             } */
+              /* decendent selector */
+              /* for example div p { } */
+              div p{
+                color: blueviolet;
+              }
+              div>div>p {
+                color: brown;
+              }
+              div h1{
+                color: blueviolet;
+              }
+              /* sibling selectors */
+              /* pseudo class like hover . we using in button 
+              visited pseudo example you already visited link the after it show in different color by applying color
+               */
+               p:nth-child(4){
+                font-size:xx-large;
+               }
+               li:nth-child(odd){
+                font-weight: bolder;
+               }
+               li:nth-child(even){
+                    color:blueviolet;
+                    font-size: 30px;
+                    font-style: italic;
+               }
+
+    </style>
+</head>
+<body>
+    <h1 id="heading1">demo for selectors</h1>
+    <div class="a">
+    <h1>second h1 tag</h1>
+    </div>
+    <p>for para use same selector</p>
+    <p>for nth child</p>
+    <span>for span we use same selector</span>
+    <div>
+        <p>this is direct child that we are traget</p>
+        <div>
+            <p>this is nested child of div</p>
+        </div>
+    </div> 
+    <br><br><br>
+    <ul>
+        <li>jaguar</li>
+        <li>R15</li>
+        <li>GT650</li>
+        <li>Rx100</li>
+        <li>kawaski ninja</li>
+    </ul>   
+</body>
+</html>

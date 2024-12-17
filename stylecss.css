@@ -1,0 +1,26 @@
+.head{
+    text-align: center;
+    padding-top: 15%; 
+}
+.para{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+.btn{
+    color:black;
+    background-color:rgb(70, 211, 224) ;
+    opacity: 0.5;
+    border-radius:5px;
+    font-style: normal;
+    border: none;
+    margin-left :47%;;
+    height: 35px;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.back{
+    background-image: url(mount.jpg);
+    background-size: cover;
+}
